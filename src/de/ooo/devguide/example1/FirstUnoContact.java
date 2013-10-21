@@ -1,20 +1,18 @@
 package de.ooo.devguide.example1;
 
-import ooo.connector.BootstrapSocketConnector;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.lang.Exception;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.Map;
 
 import com.sun.star.uno.UnoRuntime;
 import com.sun.star.beans.XPropertySet;
-import com.sun.star.bridge.UnoUrlResolver;
 import com.sun.star.bridge.XUnoUrlResolver;
-import com.sun.star.comp.helper.Bootstrap;
 import com.sun.star.configuration.XTemplateInstance;
 import com.sun.star.container.XHierarchicalName;
 import com.sun.star.container.XNameAccess;
@@ -30,38 +28,39 @@ public class FirstUnoContact {
 	private XMultiComponentFactory mcServiceManager = null;
 	private XComponentContext mxContext = null;
 	private XMultiServiceFactory xProvider = null;
-	
-	private File outFile; 
-	private FileOutputStream fileOutputStream; 
-	private PrintWriter outStream; 
-	
-	private ArrayList<String> allPrefs = new ArrayList<String>(); 
-	private Set<String> distinctPrefs = new HashSet<String>(); 
-	
-	private int boolCount = 0; 
-	private int intCount = 0; 
 
-	void openFile(){
-		try{
-		outFile = new File("output.txt");
-		fileOutputStream = new FileOutputStream(outFile); 
-		outStream = new PrintWriter(fileOutputStream); 
-		}
-		catch (Exception e) {
+	private File outFile;
+	private FileOutputStream fileOutputStream;
+	private PrintWriter outStream;
+
+	private ArrayList<String> allPrefs = new ArrayList<String>();
+	private Set<String> distinctPrefs = new HashSet<String>();
+	private Map<String, String> otherTypes = new HashMap<String, String>(); 
+	private Map<String, ArrayList<String> > sameName = new HashMap<String, ArrayList<String> >(); 
+
+	private int boolCount = 0;
+	private int intCount = 0;
+
+	void openFile() {
+		try {
+			outFile = new File("output.txt");
+			fileOutputStream = new FileOutputStream(outFile);
+			outStream = new PrintWriter(fileOutputStream);
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	
+
 	void closeFile() {
-		outStream.close(); 
+		outStream.close();
 	}
+
 	/**
 	 * Method to browse the filter configuration.
 	 * 
 	 * Information about installed filters will be printed.
 	 */
-	public void printRegisteredFilters()
-			throws com.sun.star.uno.Exception {
+	public void printRegisteredFilters() throws com.sun.star.uno.Exception {
 		final String sProviderService = "com.sun.star.configuration.ConfigurationProvider";
 		// final String sFilterKey =
 		// "/org.openoffice.TypeDetection.Filter/Filters";
@@ -69,37 +68,48 @@ public class FirstUnoContact {
 		// browse the configuration, dumping filter information
 		browseConfiguration(sFilterKey, new IConfigurationProcessor() {
 			// / prints Path and Value of properties
-			public void processValueElement(String sPath_, Object aValue_) {
-				allPrefs.add(sPath_); 
-				distinctPrefs.add(sPath_); 
-				String value = aValue_.toString(); 
-				if (value.equalsIgnoreCase("true") || value.equalsIgnoreCase("false")) {
-					boolCount++; 
+			public void processValueElement(String sPath_, String sName_, Object aValue_) {
+				allPrefs.add(sPath_);
+				distinctPrefs.add(sPath_);
+				if (!sameName.containsKey(sName_)){
+					ArrayList<String> value = new ArrayList<String>(); 
+					value.add(sPath_ + "=" + aValue_.toString()); 
+					sameName.put(sName_, value); 
 				}
 				else {
-					try{
-						int temp = (Integer)aValue_; 
-						//System.out.println("int: " + intCount); 
-						intCount++; 
-					}
-					catch (Exception e) {
-						
-					}
+					sameName.get(sName_).add(sPath_ + "=" + aValue_.toString()); 
 				}
 				
+				String value = aValue_.toString();
+
+				// Categorization
+				if (value.equalsIgnoreCase("true")
+						|| value.equalsIgnoreCase("false")) {  // Boolean
+					boolCount++;
+				} else {
+					try {  // Integer
+						int temp = (Integer) aValue_;
+						// System.out.println("int: " + intCount);
+						intCount++;
+					} catch (Exception e) {  // Other types
+						// System.out.println("Other: " + aValue_.toString());
+						otherTypes.put(sPath_, aValue_.toString()); 
+					}
+				}
+
 				if (AnyConverter.isArray(aValue_)) {
-//					final Object[] aArray = (Object[]) aValue_;
-					outStream.write(sPath_ + '=' + aValue_ + '\n'); 
-//					System.out.print("\tValue: " + sPath_ + " = { ");
-//					for (int i = 0; i < aArray.length; ++i) {
-//						if (i != 0)
-//							System.out.print(", ");
-//						System.out.print(aArray[i]);
-//					}
-//					System.out.println(" }");
+					// final Object[] aArray = (Object[]) aValue_;
+					outStream.write(sPath_ + '=' + aValue_ + '\n');
+					// System.out.print("\tValue: " + sPath_ + " = { ");
+					// for (int i = 0; i < aArray.length; ++i) {
+					// if (i != 0)
+					// System.out.print(", ");
+					// System.out.print(aArray[i]);
+					// }
+					// System.out.println(" }");
 				} else
-					outStream.write(sPath_ + '=' + aValue_ + '\n'); 
-//					System.out.println("\tValue: " + sPath_ + " = " + aValue_);
+					outStream.write(sPath_ + '=' + aValue_ + '\n');
+				// System.out.println("\tValue: " + sPath_ + " = " + aValue_);
 			}
 
 			// / prints the Filter entries
@@ -115,14 +125,13 @@ public class FirstUnoContact {
 						&& xInstance.getTemplateName().endsWith("Filter")) {
 					XNamed xNamed = UnoRuntime.queryInterface(XNamed.class,
 							xElement_);
-//					System.out.println("Filter " + xNamed.getName() + " ("
-//							+ sPath_ + ")");
+					// System.out.println("Filter " + xNamed.getName() + " ("
+					// + sPath_ + ")");
 				}
 			}
 		});
 	}
 
-	
 	public Object createConfigurationView(String sPath)
 			throws com.sun.star.uno.Exception {
 
@@ -208,7 +217,7 @@ public class FirstUnoContact {
 						.composeHierarchicalName(aElementNames[i]);
 
 				// and process the value
-				aProcessor.processValueElement(sChildPath, aChild);
+				aProcessor.processValueElement(sChildPath, aElementNames[i], aChild);
 			}
 		}
 	}
@@ -270,31 +279,38 @@ public class FirstUnoContact {
 					+ "\"-accept=socket,host=localhost,port=5678;urp;\"");
 		}
 	}
-	
-	
-	private ArrayList<String> getAllPrefs(){
-		return this.allPrefs; 
+
+	private ArrayList<String> getAllPrefs() {
+		return this.allPrefs;
+	}
+
+	private Set<String> getDistinctPrefs() {
+		return this.distinctPrefs;
 	}
 	
-	private Set<String> getDistinctPrefs() {
-		return this.distinctPrefs; 
+	private Map<String, String> getOtherTypes() {
+		return this.otherTypes; 
+	}
+
+	private Map<String, ArrayList<String>> getSameName() {
+		return this.sameName; 
 	}
 	
 	private int getBoolCount() {
-		return this.boolCount; 
+		return this.boolCount;
 	}
-	
+
 	private int getIntCount() {
-		return this.intCount; 
+		return this.intCount;
 	}
-	
+
 	public static void main(String[] args) {
 		try {
-			
+
 			// get the remote office component context
 			// com.sun.star.uno.XComponentContext xContext =
 			// com.sun.star.comp.helper.Bootstrap.bootstrap();
-			FirstUnoContact firstContact = new FirstUnoContact(); 
+			FirstUnoContact firstContact = new FirstUnoContact();
 			firstContact.connect("localhost", 5678);
 
 			// mxContext = com.sun.star.comp.helper.Bootstrap.bootstrap();
@@ -304,22 +320,52 @@ public class FirstUnoContact {
 			// BootstrapSocketConnector.bootstrap(oooExecFolder);
 			System.out.println("Connected to a running office ...");
 
-			firstContact.openFile(); 
+			firstContact.openFile();
 			firstContact.printRegisteredFilters();
-			firstContact.closeFile(); 
+			firstContact.closeFile();
 			// com.sun.star.lang.XMultiComponentFactory xMCF =
 			// xContext.getServiceManager();
 
 			// String available = (xMCF != null ? "available" :
 			// "not available");
 			// System.out.println("remote ServiceManager is " + available);
+
+			ArrayList<String> allPrefs = firstContact.getAllPrefs();
+			Set<String> distinctPrefs = firstContact.getDistinctPrefs();
+			System.out.println("all prefs size: " + allPrefs.size());
+			System.out.println("distinct pref size: " + distinctPrefs.size());
+			System.out.println("boolean count: " + firstContact.getBoolCount());
+			System.out.println("int count: " + firstContact.getIntCount());
 			
-			ArrayList<String> allPrefs = firstContact.getAllPrefs(); 
-			Set<String> distinctPrefs = firstContact.getDistinctPrefs(); 
-			System.out.println("all prefs size: " + allPrefs.size()); 
-			System.out.println("distinct pref size: " + distinctPrefs.size()); 
-			System.out.println("boolean count: " + firstContact.getBoolCount()); 
-			System.out.println("int count: " + firstContact.getIntCount()); 
+			// Print other types
+			File otherFile = new File("othertypes.txt");
+			FileOutputStream otherFileOutputStream = new FileOutputStream(otherFile);
+			PrintWriter pw = new PrintWriter(otherFileOutputStream); 
+			Map<String, String> otherTypes = firstContact.getOtherTypes(); 
+			Set<String> keys = otherTypes.keySet(); 
+			
+			for (String key : keys) {
+				pw.write(key + "=" + otherTypes.get(key) + '\n');  
+			}
+			
+			pw.close(); 
+			
+			// Print same name but different prefs
+			File sameNameFile = new File("samename.txt");
+			FileOutputStream sameNameFileOutputStream = new FileOutputStream(sameNameFile); 
+			PrintWriter pw2 = new PrintWriter(sameNameFileOutputStream);
+			Map<String, ArrayList<String> > sameName = firstContact.getSameName(); 
+			keys = sameName.keySet(); 
+			
+			for (String key : keys) {
+				if (sameName.get(key).size() > 1 && sameName.get(key).size() <= 5 ){  // Only print ones with multiple names
+					pw2.write(key + ": {\n"); 
+					for (String item : sameName.get(key)) {
+						pw2.write("---" + item + '\n');
+					}
+					pw2.write("}\n\n\n"); 
+				}
+			}
 		} catch (java.lang.Exception e) {
 			e.printStackTrace();
 		} finally {
