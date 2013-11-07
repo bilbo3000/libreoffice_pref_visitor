@@ -1,0 +1,2178 @@
+NumberFormatRecognition: {
+---org.openoffice.Office.Writer/Table/Input/NumberFormatRecognition=false
+---org.openoffice.Office.WriterWeb/Table/Input/NumberFormatRecognition=true
+}
+
+
+ReduceTransparency: {
+---org.openoffice.Office.Common/Print/Option/File/ReduceTransparency=false
+---org.openoffice.Office.Common/Print/Option/Printer/ReduceTransparency=false
+}
+
+
+IsMatchHiraganaKatakana: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatchHiraganaKatakana=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatchHiraganaKatakana=true
+}
+
+
+PaperFooter: {
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PaperFooter=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PaperFooter=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PaperFooter=false
+}
+
+
+MeasureUnit: {
+---org.openoffice.Office.Writer/Layout/Other/MeasureUnit=8
+---org.openoffice.Office.WriterWeb/Layout/Other/MeasureUnit=Any[Type[void], null]
+}
+
+
+IsMatchOldKanaForms: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatchOldKanaForms=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatchOldKanaForms=true
+}
+
+
+WorkAddress2: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/WorkAddress2=Work Address 2
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/WorkAddress2=Business Address2
+}
+
+
+Header: {
+---org.openoffice.Office.Writer/Insert/Table/Header=false
+---org.openoffice.Office.WriterWeb/Insert/Table/Header=false
+}
+
+
+EmptyPages: {
+---org.openoffice.Office.Calc/Print/Page/EmptyPages=false
+---org.openoffice.Office.Writer/Print/EmptyPages=false
+}
+
+
+Range: {
+---org.openoffice.Office.Draw/Snap/Object/Range=5
+---org.openoffice.Office.Impress/Snap/Object/Range=5
+}
+
+
+PrintSalutation: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/PrintSalutation=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/PrintSalutation=true
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintSalutation=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintSalutation=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintSalutation=true
+}
+
+
+Locale: {
+---org.openoffice.Office.Common/Help/Locale=
+---org.openoffice.System/L10N/Locale=en-US
+}
+
+
+ListHeight: {
+---org.openoffice.Office.Writer/DefaultFont/ListHeight=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCJK/ListHeight=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCTL/ListHeight=Any[Type[void], null]
+}
+
+
+Load: {
+---org.openoffice.Office.Calc/Filter/Import/VBA/Load=true
+---org.openoffice.Office.Impress/Filter/Import/VBA/Load=true
+---org.openoffice.Office.Writer/Filter/Import/VBA/Load=true
+}
+
+
+PaperCompanyAddressReceiverField: {
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PaperCompanyAddressReceiverField=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PaperCompanyAddressReceiverField=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PaperCompanyAddressReceiverField=false
+}
+
+
+UseObjectPositioning: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/UseObjectPositioning=false
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/UseObjectPositioning=false
+}
+
+
+Backup: {
+---org.openoffice.Office.Common/Path/Current/Backup=$(userurl)/backup
+---org.openoffice.Office.Common/Path/Default/Backup=$(userurl)/backup
+}
+
+
+FactoryImplementation: {
+---org.openoffice.Office.UI.Factories/Registered/UIElementFactories/org.openoffice.Office.UI.Factories:FactoryType['addons_toolbar_factory']/FactoryImplementation=com.sun.star.comp.framework.AddonsToolBarFactory
+---org.openoffice.Office.UI.Factories/Registered/UIElementFactories/org.openoffice.Office.UI.Factories:FactoryType['generic_menubar_factory']/FactoryImplementation=com.sun.star.comp.framework.MenuBarFactory
+---org.openoffice.Office.UI.Factories/Registered/UIElementFactories/org.openoffice.Office.UI.Factories:FactoryType['generic_toolbar_factory']/FactoryImplementation=com.sun.star.comp.framework.ToolBarFactory
+---org.openoffice.Office.UI.Factories/Registered/UIElementFactories/org.openoffice.Office.UI.Factories:FactoryType['org.openoffice.Office.Impress.ImpressToolPanelFactory']/FactoryImplementation=com.sun.star.drawing.DefaultToolPanelFactory
+---org.openoffice.Office.UI.Factories/Registered/UIElementFactories/org.openoffice.Office.UI.Factories:FactoryType['statusbar_factory']/FactoryImplementation=com.sun.star.comp.framework.StatusBarFactory
+}
+
+
+String: {
+---org.openoffice.Office.PresenterScreen/Presenter/Accessibility/org.openoffice.Office.PresenterScreen:PresenterString['Console']/String=Presenter Console
+---org.openoffice.Office.PresenterScreen/Presenter/Accessibility/org.openoffice.Office.PresenterScreen:PresenterString['Notes']/String=Presenter Notes
+---org.openoffice.Office.PresenterScreen/Presenter/Accessibility/org.openoffice.Office.PresenterScreen:PresenterString['Preview']/String=Current Slide Info
+---org.openoffice.Office.PresenterScreen/Presenter/Views/org.openoffice.Office.PresenterScreen:ViewDescription['CurrentSlidePreview']/Strings/org.openoffice.Office.PresenterScreen:PresenterString['ClickToExitPresentationText']/String=Click to exit presentation...
+---org.openoffice.Office.PresenterScreen/Presenter/Views/org.openoffice.Office.PresenterScreen:ViewDescription['CurrentSlidePreview']/Strings/org.openoffice.Office.PresenterScreen:PresenterString['ClickToExitPresentationTitle']/String=Current Slide (end)
+}
+
+
+nl-NL: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/nl-NL=[Ljava.lang.String;@df503
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/nl-NL=[Ljava.lang.String;@148cc8c
+}
+
+
+Template: {
+---org.openoffice.Office.Common/Path/Current/Template=[Ljava.lang.String;@13c5982
+---org.openoffice.Office.Common/Path/Default/Template=[Ljava.lang.String;@1034bb5
+}
+
+
+sv-SE: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/sv-SE=[Ljava.lang.String;@1f6f0bf
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/sv-SE=[Ljava.lang.String;@17471e0
+}
+
+
+Username: {
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Publishing/org.openoffice.Office.WebWizard:WWizPublish['ftp']/Username=
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Publishing/org.openoffice.Office.WebWizard:WWizPublish['local']/Username=
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Publishing/org.openoffice.Office.WebWizard:WWizPublish['zip']/Username=
+}
+
+
+DeleteHiddenSlides: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/DeleteHiddenSlides=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/DeleteHiddenSlides=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/DeleteHiddenSlides=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/DeleteHiddenSlides=true
+}
+
+
+HomeState: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/HomeState=State
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/HomeState=Home Address State
+}
+
+
+IsUseRegularExpression: {
+---org.openoffice.Office.Common/SearchOptions/IsUseRegularExpression=false
+---org.openoffice.Office.DataAccess/FormSearchOptions/IsUseRegularExpression=false
+}
+
+
+AddTableSpacing: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/AddTableSpacing=true
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/AddTableSpacing=true
+}
+
+
+Bezier: {
+---org.openoffice.Office.Draw/Layout/Display/Bezier=false
+---org.openoffice.Office.Impress/Layout/Display/Bezier=false
+}
+
+
+Brochure: {
+---org.openoffice.Office.Writer/Print/Page/Brochure=false
+---org.openoffice.Office.WriterWeb/Print/Page/Brochure=false
+}
+
+
+Background: {
+---org.openoffice.Office.Writer/Print/Content/Background=true
+---org.openoffice.Office.WriterWeb/Print/Content/Background=true
+}
+
+
+GroupId: {
+---org.openoffice.Office.OptionsDialog/Nodes/org.openoffice.Office.OptionsDialog:Node['org.openoffice.lightproof']/GroupId=
+---org.openoffice.Office.OptionsDialog/Nodes/org.openoffice.Office.OptionsDialog:Node['org.openoffice.lightproof']/Leaves/org.openoffice.Office.OptionsDialog:Leaf['org.openoffice.lightproof.en']/GroupId=
+}
+
+
+IsMatch_KiKu: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatch_KiKu=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatch_KiKu=true
+}
+
+
+Grid: {
+---org.openoffice.Office.Draw/Snap/Object/Grid=false
+---org.openoffice.Office.Impress/Snap/Object/Grid=true
+}
+
+
+FirstName: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/FirstName=First Name
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/FirstName=given_name
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/FirstName=Any[Type[void], null]
+}
+
+
+LeftMargin: {
+---org.openoffice.Office.Writer/BusinessCard/Format/LeftMargin=0
+---org.openoffice.Office.Writer/Label/Format/LeftMargin=0
+}
+
+
+pt-PT: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/pt-PT=[Ljava.lang.String;@1bd0dd4
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/pt-PT=[Ljava.lang.String;@3bb2b8
+}
+
+
+FooterPageNumbers: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/FooterPageNumbers=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/FooterPageNumbers=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/FooterPageNumbers=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/FooterPageNumbers=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/FooterPageNumbers=true
+}
+
+
+PrintDate: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/PrintDate=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/PrintDate=Any[Type[void], null]
+}
+
+
+Alignment: {
+---org.openoffice.Office.Writer/Envelope/Print/Alignment=0
+---org.openoffice.Office.Writer/Table/Input/Alignment=false
+---org.openoffice.Office.WriterWeb/Table/Input/Alignment=false
+}
+
+
+CommunicationType: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/CommunicationType=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/CommunicationType=Any[Type[void], null]
+}
+
+
+OptionalHyphen: {
+---org.openoffice.Office.Writer/Content/NonprintingCharacter/OptionalHyphen=true
+---org.openoffice.Office.WriterWeb/Content/NonprintingCharacter/OptionalHyphen=true
+}
+
+
+DeleteNotesPages: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/DeleteNotesPages=false
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/DeleteNotesPages=false
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/DeleteNotesPages=false
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/DeleteNotesPages=false
+}
+
+
+HandoutView: {
+---org.openoffice.Office.Impress/MultiPaneGUI/SlideSorterBar/Visible/HandoutView=false
+---org.openoffice.Office.Impress/MultiPaneGUI/ToolPanel/Visible/HandoutView=true
+}
+
+
+UseReplacementTable: {
+---org.openoffice.Office.Common/AutoCorrect/UseReplacementTable=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/UseReplacementTable=true
+}
+
+
+NumberedList_InTable: {
+---org.openoffice.Office.Writer/ObjectBar/Selection/NumberedList_InTable=-1
+---org.openoffice.Office.WriterWeb/ObjectBar/Selection/NumberedList_InTable=-1
+}
+
+
+Temp: {
+---org.openoffice.Office.Common/Path/Current/Temp=$(temp)
+---org.openoffice.Office.Common/Path/Default/Temp=$(temp)
+}
+
+
+cs-CZ: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/cs-CZ=[Ljava.lang.String;@1ccb029
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/cs-CZ=[Ljava.lang.String;@b82368
+}
+
+
+PrintBlack: {
+---org.openoffice.Office.Writer/Print/Content/PrintBlack=false
+---org.openoffice.Office.WriterWeb/Print/Content/PrintBlack=false
+}
+
+
+Help: {
+---org.openoffice.Office.Common/Path/Current/Help=$(instpath)/help
+---org.openoffice.Office.Common/Path/Default/Help=$(instpath)/help
+}
+
+
+ReducedTransparencyMode: {
+---org.openoffice.Office.Common/Print/Option/File/ReducedTransparencyMode=0
+---org.openoffice.Office.Common/Print/Option/Printer/ReducedTransparencyMode=0
+}
+
+
+SecondEmail: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/SecondEmail=E-mail (2)
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/SecondEmail=email_2
+}
+
+
+Fax: {
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/Fax=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/Fax=Any[Type[void], null]
+---org.openoffice.Office.Writer/Print/Output/Fax=
+---org.openoffice.Office.WriterWeb/Print/Output/Fax=
+}
+
+
+ReducedBitmapIncludesTransparency: {
+---org.openoffice.Office.Common/Print/Option/File/ReducedBitmapIncludesTransparency=true
+---org.openoffice.Office.Common/Print/Option/Printer/ReducedBitmapIncludesTransparency=true
+}
+
+
+FNPrefix: {
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset0']/FNPrefix=blu
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset1']/FNPrefix=gre
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset2']/FNPrefix=cub
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset3']/FNPrefix=sim
+}
+
+
+SERIF: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ak-GH']/SERIF= Gentium;Aboriginal Serif;FreeSerif;Luxi Serif;Thorndale AMT;Thorndale;Times New Roman;Nimbus Roman No9 L;Times;Lucida Serif;Lucida Bright;Serif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/SERIF=Thorndale AMT;Thorndale;Times New Roman;Tino;Liberation Serif;DejaVu Serif;Nimbus Roman No9 L;Times;Lucida Serif;Lucida Bright;Timmons;New York;Serif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/SERIF=썬굴림;SunGulim;Baekmuk Gulim;굴림;Gulim;Batang;Myeongjo;Gulim;Baekmuk Batang;Roundgothic;Thorndale AMT;Thorndale;Times New Roman;Nimbus Roman No9 L;Times;Lucida Serif;Lucida Bright;Timmons;New York;Serif
+}
+
+
+IsMatch_BaVa_HaFa: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatch_BaVa_HaFa=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatch_BaVa_HaFa=true
+}
+
+
+Page: {
+---org.openoffice.Office.Writer/BusinessCard/Option/Page=true
+---org.openoffice.Office.Writer/Label/Option/Page=true
+}
+
+
+ObjectMoveable: {
+---org.openoffice.Office.Draw/Misc/ObjectMoveable=true
+---org.openoffice.Office.Impress/Misc/ObjectMoveable=true
+}
+
+
+SenderStreet: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/SenderStreet=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/SenderStreet=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/SenderStreet=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/SenderStreet=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/SenderStreet=
+}
+
+
+SenderFax: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/SenderFax=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/SenderFax=Any[Type[void], null]
+}
+
+
+FooterOnlySecondPage: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/FooterOnlySecondPage=false
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/FooterOnlySecondPage=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/FooterOnlySecondPage=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/FooterOnlySecondPage=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/FooterOnlySecondPage=false
+}
+
+
+BackgroundCache: {
+---org.openoffice.Office.Draw/Misc/BackgroundCache=true
+---org.openoffice.Office.Impress/Misc/BackgroundCache=true
+}
+
+
+Control: {
+---org.openoffice.Office.Writer/Print/Content/Control=true
+---org.openoffice.Office.WriterWeb/Print/Content/Control=true
+}
+
+
+GroupIndex: {
+---org.openoffice.Office.OptionsDialog/Nodes/org.openoffice.Office.OptionsDialog:Node['org.openoffice.lightproof']/GroupIndex=-1
+---org.openoffice.Office.OptionsDialog/Nodes/org.openoffice.Office.OptionsDialog:Node['org.openoffice.lightproof']/Leaves/org.openoffice.Office.OptionsDialog:Leaf['org.openoffice.lightproof.en']/GroupIndex=-1
+}
+
+
+IsIgnoreWhitespace: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsIgnoreWhitespace=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsIgnoreWhitespace=true
+}
+
+
+ConvertToGreyscales: {
+---org.openoffice.Office.Common/Print/Option/File/ConvertToGreyscales=false
+---org.openoffice.Office.Common/Print/Option/Printer/ConvertToGreyscales=false
+}
+
+
+Family: {
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id1']/Family=0
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id2']/Family=0
+}
+
+
+CurrentColorScheme: {
+---org.openoffice.Office.ExtendedColorScheme/ExtendedColorScheme/CurrentColorScheme=default
+---org.openoffice.Office.UI/ColorScheme/CurrentColorScheme=LibreOffice
+}
+
+
+Pitch: {
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id1']/Pitch=0
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id2']/Pitch=0
+}
+
+
+Href: {
+---org.openoffice.Office.WebWizard/WebWizard/BackgroundImages/org.openoffice.Office.WebWizard:WWizImage['1']/Href=$(inst)/share/gallery/www-back/
+---org.openoffice.Office.WebWizard/WebWizard/BackgroundImages/org.openoffice.Office.WebWizard:WWizImage['2']/Href=$(inst)/share/gallery/surface
+---org.openoffice.Office.WebWizard/WebWizard/BackgroundImages/org.openoffice.Office.WebWizard:WWizImage['3']/Href=file:///c:/11.jpg
+}
+
+
+IsMatchVariantFormKanji: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatchVariantFormKanji=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatchVariantFormKanji=true
+}
+
+
+Description: {
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Content/Description=Any[Type[void], null]
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/GeneralInfo/Description=Any[Type[void], null]
+}
+
+
+BirthDay: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/BirthDay=Birth Day
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/BirthDay=Birth Day
+}
+
+
+IsMatch_IaIya: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatch_IaIya=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatch_IaIya=true
+}
+
+
+AddNonBreakingSpace: {
+---org.openoffice.Office.Common/AutoCorrect/AddNonBreakingSpace=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/AddNonBreakingSpace=true
+}
+
+
+BusinessPaper: {
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/BusinessPaper=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/BusinessPaper=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/BusinessPaper=false
+}
+
+
+SenderCompanyName: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/SenderCompanyName=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/SenderCompanyName=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/SenderCompanyName=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/SenderCompanyName=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/SenderCompanyName=
+}
+
+
+Weight: {
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id1']/Weight=0
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id2']/Weight=0
+}
+
+
+Effect: {
+---org.openoffice.Office.Writer/Table/Change/Effect=2
+---org.openoffice.Office.WriterWeb/Table/Change/Effect=2
+}
+
+
+FromRow: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/FromRow=1
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/FromRow=1
+}
+
+
+TextSeparators: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/TextSeparators="
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/TextSeparators="
+---org.openoffice.Office.Calc/Dialogs/TextToColumnsImport/TextSeparators="
+}
+
+
+IsMatch_TsiThiChi_DhiZi: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatch_TsiThiChi_DhiZi=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatch_TsiThiChi_DhiZi=true
+}
+
+
+PreferredImplementations: {
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.Canvas']/PreferredImplementations=[Ljava.lang.String;@119298d
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.Canvas.MultiScreen']/PreferredImplementations=[Ljava.lang.String;@18a992f
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.SpriteCanvas']/PreferredImplementations=[Ljava.lang.String;@dc8569
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.SpriteCanvas.MultiScreen']/PreferredImplementations=[Ljava.lang.String;@150bd4d
+}
+
+
+MetaCharacters: {
+---org.openoffice.Office.Writer/Content/NonprintingCharacter/MetaCharacters=false
+---org.openoffice.Office.WriterWeb/Content/NonprintingCharacter/MetaCharacters=false
+}
+
+
+PageSize: {
+---org.openoffice.Office.Draw/Print/Page/PageSize=false
+---org.openoffice.Office.Impress/Print/Page/PageSize=false
+}
+
+
+VerticalDistance: {
+---org.openoffice.Office.Writer/BusinessCard/Format/VerticalDistance=10000
+---org.openoffice.Office.Writer/Label/Format/VerticalDistance=10000
+}
+
+
+FixedWidthList: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/FixedWidthList=
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/FixedWidthList=
+---org.openoffice.Office.Calc/Dialogs/TextToColumnsImport/FixedWidthList=
+}
+
+
+BookletFront: {
+---org.openoffice.Office.Draw/Print/Page/BookletFront=true
+---org.openoffice.Office.Impress/Print/Page/BookletFront=true
+}
+
+
+VerticalRulerUnit: {
+---org.openoffice.Office.Writer/Layout/Window/VerticalRulerUnit=Any[Type[void], null]
+---org.openoffice.Office.WriterWeb/Layout/Window/VerticalRulerUnit=Any[Type[void], null]
+}
+
+
+pt-BR: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/pt-BR=[Ljava.lang.String;@50d89c
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/pt-BR=[Ljava.lang.String;@6d084b
+}
+
+
+IsAlignMathObjectsToBaseline: {
+---org.openoffice.Office.Writer/Layout/Other/IsAlignMathObjectsToBaseline=true
+---org.openoffice.Office.WriterWeb/Layout/Other/IsAlignMathObjectsToBaseline=true
+}
+
+
+CreationType: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/CreationType=0
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/CreationType=0
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/CreationType=0
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/CreationType=0
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/CreationType=0
+}
+
+
+FontPitch: {
+---org.openoffice.Office.Writer/AutoFunction/Format/ByInput/ApplyNumbering/SpecialCharacter/FontPitch=2
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/ChangeToBullets/SpecialCharacter/FontPitch=2
+}
+
+
+Reversed: {
+---org.openoffice.Office.Writer/Print/Page/Reversed=false
+---org.openoffice.Office.WriterWeb/Print/Page/Reversed=false
+}
+
+
+OperatorSize: {
+---org.openoffice.Office.Math/StandardFormat/Distance/OperatorSize=50
+---org.openoffice.Office.Math/StandardFormat/OperatorSize=100
+}
+
+
+IsMatchRepeatCharMarks: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatchRepeatCharMarks=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatchRepeatCharMarks=true
+}
+
+
+NumberRecognition: {
+---org.openoffice.Office.Writer/Table/Input/NumberRecognition=false
+---org.openoffice.Office.WriterWeb/Table/Input/NumberRecognition=true
+}
+
+
+UsePrinterMetrics: {
+---org.openoffice.Office.Calc/Input/UsePrinterMetrics=false
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/UsePrinterMetrics=false
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/UsePrinterMetrics=false
+}
+
+
+el-GR: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/el-GR=[Ljava.lang.String;@7bd9f2
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/el-GR=[Ljava.lang.String;@c53dce
+}
+
+
+NickName: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/NickName=Nickname
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/NickName=nickname
+}
+
+
+VisibleGrid: {
+---org.openoffice.Office.Calc/Grid/Option/VisibleGrid=false
+---org.openoffice.Office.Draw/Grid/Option/VisibleGrid=false
+---org.openoffice.Office.Impress/Grid/Option/VisibleGrid=false
+---org.openoffice.Office.Writer/Grid/Option/VisibleGrid=false
+---org.openoffice.Office.WriterWeb/Grid/Option/VisibleGrid=false
+}
+
+
+QuotedFieldAsText: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/QuotedFieldAsText=false
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/QuotedFieldAsText=false
+}
+
+
+ObjectFrame: {
+---org.openoffice.Office.Draw/Snap/Object/ObjectFrame=false
+---org.openoffice.Office.Impress/Snap/Object/ObjectFrame=true
+}
+
+
+IsMatchCase: {
+---org.openoffice.Office.Common/SearchOptions/IsMatchCase=false
+---org.openoffice.Office.DataAccess/FormSearchOptions/IsMatchCase=false
+}
+
+
+Addin: {
+---org.openoffice.Office.Common/Path/Current/Addin=$(progpath)/addin
+---org.openoffice.Office.Common/Path/Default/Addin=$(progpath)/addin
+}
+
+
+Warning: {
+---org.openoffice.Office.Common/Filter/HTML/Export/Warning=true
+---org.openoffice.Office.Common/Security/Scripting/Warning=false
+}
+
+
+TopMargin: {
+---org.openoffice.Office.Writer/BusinessCard/Format/TopMargin=0
+---org.openoffice.Office.Writer/Label/Format/TopMargin=0
+}
+
+
+ReduceBitmaps: {
+---org.openoffice.Office.Common/Print/Option/File/ReduceBitmaps=false
+---org.openoffice.Office.Common/Print/Option/Printer/ReduceBitmaps=false
+}
+
+
+FieldCode: {
+---org.openoffice.Office.Writer/Content/Display/FieldCode=false
+---org.openoffice.Office.WriterWeb/Content/Display/FieldCode=false
+}
+
+
+FaxNumber: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/FaxNumber=Fax
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/FaxNumber=business_fax
+}
+
+
+Space: {
+---org.openoffice.Office.Writer/Content/NonprintingCharacter/Space=true
+---org.openoffice.Office.WriterWeb/Content/NonprintingCharacter/Space=true
+}
+
+
+HomeCity: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/HomeCity=City
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/HomeCity=Home Address City
+}
+
+
+Border: {
+---org.openoffice.Office.Writer/Insert/Table/Border=true
+---org.openoffice.Office.WriterWeb/Insert/Table/Border=true
+}
+
+
+WorkAddress: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/WorkAddress=Work Address
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/WorkAddress=Business Address
+}
+
+
+DeleteUnusedMasterPages: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/DeleteUnusedMasterPages=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/DeleteUnusedMasterPages=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/DeleteUnusedMasterPages=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/DeleteUnusedMasterPages=true
+}
+
+
+IsIgnoreMiddleDot: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsIgnoreMiddleDot=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsIgnoreMiddleDot=true
+}
+
+
+ShowRulers: {
+---org.openoffice.Office.Writer/Layout/Window/ShowRulers=true
+---org.openoffice.Office.WriterWeb/Layout/Window/ShowRulers=true
+}
+
+
+BookletBack: {
+---org.openoffice.Office.Draw/Print/Page/BookletBack=true
+---org.openoffice.Office.Impress/Print/Page/BookletBack=true
+}
+
+
+Phone: {
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/Phone=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/Phone=Any[Type[void], null]
+}
+
+
+fi-FI: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/fi-FI=[Ljava.lang.String;@1815859
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/fi-FI=[Ljava.lang.String;@6f7ce9
+}
+
+
+OutlineView: {
+---org.openoffice.Office.Impress/MultiPaneGUI/SlideSorterBar/Visible/OutlineView=true
+---org.openoffice.Office.Impress/MultiPaneGUI/ToolPanel/Visible/OutlineView=false
+}
+
+
+Rotating: {
+---org.openoffice.Office.Draw/Snap/Position/Rotating=false
+---org.openoffice.Office.Impress/Snap/Position/Rotating=false
+}
+
+
+NoExternalLeading: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/NoExternalLeading=false
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/NoExternalLeading=false
+}
+
+
+CreatingMoving: {
+---org.openoffice.Office.Draw/Snap/Position/CreatingMoving=false
+---org.openoffice.Office.Impress/Snap/Position/CreatingMoving=false
+}
+
+
+PrintBendMarks: {
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintBendMarks=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintBendMarks=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintBendMarks=true
+}
+
+
+SetInetAttribute: {
+---org.openoffice.Office.Common/AutoCorrect/SetInetAttribute=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/SetInetAttribute=true
+}
+
+
+DelSpacesAtStartEnd: {
+---org.openoffice.Office.Writer/AutoFunction/Format/ByInput/DelSpacesAtStartEnd=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/DelSpacesAtStartEnd=true
+}
+
+
+HiddenPage: {
+---org.openoffice.Office.Draw/Print/Other/HiddenPage=true
+---org.openoffice.Office.Impress/Print/Other/HiddenPage=true
+}
+
+
+Footer: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/Footer=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/Footer=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/Footer=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/Footer=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/Footer=
+}
+
+
+ObjectPoint: {
+---org.openoffice.Office.Draw/Snap/Object/ObjectPoint=false
+---org.openoffice.Office.Impress/Snap/Object/ObjectPoint=false
+}
+
+
+Helpline: {
+---org.openoffice.Office.Draw/Layout/Display/Helpline=false
+---org.openoffice.Office.Impress/Layout/Display/Helpline=false
+}
+
+
+DrawingControl: {
+---org.openoffice.Office.Writer/Content/Display/DrawingControl=true
+---org.openoffice.Office.WriterWeb/Content/Display/DrawingControl=true
+}
+
+
+ReducedBitmapResolution: {
+---org.openoffice.Office.Common/Print/Option/File/ReducedBitmapResolution=3
+---org.openoffice.Office.Common/Print/Option/Printer/ReducedBitmapResolution=3
+}
+
+
+TwoCapitalsAtStart: {
+---org.openoffice.Office.Common/AutoCorrect/Exceptions/TwoCapitalsAtStart=true
+---org.openoffice.Office.Common/AutoCorrect/TwoCapitalsAtStart=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/TwoCapitalsAtStart=true
+}
+
+
+DataSourceName: {
+---org.openoffice.Office.DataAccess/AddressBook/DataSourceName=
+---org.openoffice.Office.DataAccess/Bibliography/CurrentDataSource/DataSourceName=Bibliography
+---org.openoffice.Office.DataAccess/Bibliography/DataSourceHistory/org.openoffice.Office.DataAccess:DataSource['Default']/DataSourceName=Bibliography
+---org.openoffice.Office.Writer/MailMergeWizard/AddressDataAssignments/org.openoffice.Office.Writer:AddressDataAssignment['_0']/DataSource/DataSourceName=EvolutionLocal
+---org.openoffice.Office.Writer/MailMergeWizard/DataSource/DataSourceName=EvolutionLocal
+}
+
+
+WebAddress: {
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/WebAddress=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/WebAddress=Any[Type[void], null]
+}
+
+
+HorizontalScroll: {
+---org.openoffice.Office.Calc/Layout/Window/HorizontalScroll=true
+---org.openoffice.Office.Writer/Layout/Window/HorizontalScroll=true
+---org.openoffice.Office.WriterWeb/Layout/Window/HorizontalScroll=true
+}
+
+
+Linguistic: {
+---org.openoffice.Office.Common/Path/Current/Linguistic=$(insturl)/share/dict
+---org.openoffice.Office.Common/Path/Default/Linguistic=$(insturl)/share/dict
+}
+
+
+LineContour: {
+---org.openoffice.Office.Draw/Content/Display/LineContour=false
+---org.openoffice.Office.Impress/Content/Display/LineContour=false
+}
+
+
+SaveAs: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/SaveAs=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/SaveAs=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/SaveAs=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/SaveAs=true
+}
+
+
+WorkCountry: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/WorkCountry=Country (Work)
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/WorkCountry=Business Address Country
+}
+
+
+SlideSorterView: {
+---org.openoffice.Office.Impress/MultiPaneGUI/SlideSorterBar/Visible/SlideSorterView=false
+---org.openoffice.Office.Impress/MultiPaneGUI/ToolPanel/Visible/SlideSorterView=true
+}
+
+
+OLEOptimization: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/OLEOptimization=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/OLEOptimization=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/OLEOptimization=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/OLEOptimization=true
+}
+
+
+Chart: {
+---org.openoffice.Office.Calc/Content/Display/Chart=0
+---org.openoffice.Office.ReportDesign/UserData/Chart=true
+---org.openoffice.Office.Writer/Content/Update/Chart=true
+}
+
+
+DelSpacesBetween: {
+---org.openoffice.Office.Writer/AutoFunction/Format/ByInput/DelSpacesBetween=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/DelSpacesBetween=true
+}
+
+
+ga-IE: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/ga-IE=[Ljava.lang.String;@6b7920
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/ga-IE=[Ljava.lang.String;@1feca64
+}
+
+
+Guide: {
+---org.openoffice.Office.Calc/Layout/Line/Guide=false
+---org.openoffice.Office.Draw/Layout/Display/Guide=false
+---org.openoffice.Office.Impress/Layout/Display/Guide=false
+---org.openoffice.Office.Writer/Layout/Line/Guide=false
+---org.openoffice.Office.WriterWeb/Layout/Line/Guide=false
+}
+
+
+Gallery: {
+---org.openoffice.Office.Common/Path/Current/Gallery=[Ljava.lang.String;@1f1fba0
+---org.openoffice.Office.Common/Path/Default/Gallery=[Ljava.lang.String;@c2ea3f
+}
+
+
+Preview: {
+---org.openoffice.Office.Common/Filter/Graphic/Export/EPS/Preview=0
+---org.openoffice.Office.Draw/Misc/Preview=0.0
+---org.openoffice.Office.Impress/Misc/Preview=0.0
+}
+
+
+HeadingHeight: {
+---org.openoffice.Office.Writer/DefaultFont/HeadingHeight=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCJK/HeadingHeight=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCTL/HeadingHeight=Any[Type[void], null]
+}
+
+
+Key: {
+---org.openoffice.Office.Common/View/SplitWindow/Key=
+---org.openoffice.Office.Common/View/Window/Key=Any[Type[void], null]
+}
+
+
+ru-RU: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/ru-RU=[Ljava.lang.String;@d70d7a
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/ru-RU=[Ljava.lang.String;@152544e
+}
+
+
+Attribute: {
+---org.openoffice.Office.Writer/Revision/TextDisplay/ChangedAttribute/Attribute=1
+---org.openoffice.Office.Writer/Revision/TextDisplay/Delete/Attribute=3
+---org.openoffice.Office.Writer/Revision/TextDisplay/Insert/Attribute=3
+}
+
+
+ReducedGradientMode: {
+---org.openoffice.Office.Common/Print/Option/File/ReducedGradientMode=0
+---org.openoffice.Office.Common/Print/Option/Printer/ReducedGradientMode=0
+}
+
+
+Ruler: {
+---org.openoffice.Office.Draw/Layout/Display/Ruler=true
+---org.openoffice.Office.Impress/Layout/Display/Ruler=false
+}
+
+
+OptionsPage: {
+---org.openoffice.Office.OptionsDialog/Nodes/org.openoffice.Office.OptionsDialog:Node['org.openoffice.lightproof']/Leaves/org.openoffice.Office.OptionsDialog:Leaf['org.openoffice.lightproof.en']/OptionsPage=vnd.sun.star.expand:$BUNDLED_EXTENSIONS/dict-en/dialog/en.xdl
+---org.openoffice.Office.OptionsDialog/Nodes/org.openoffice.Office.OptionsDialog:Node['org.openoffice.lightproof']/OptionsPage=Any[Type[void], null]
+}
+
+
+ChangeDash: {
+---org.openoffice.Office.Common/AutoCorrect/ChangeDash=true
+---org.openoffice.Office.Writer/AutoFunction/Format/ByInput/ChangeDash=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/ChangeDash=true
+}
+
+
+id-ID: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/id-ID=[Ljava.lang.String;@1dd46f7
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/id-ID=[Ljava.lang.String;@998b08
+}
+
+
+PrintCompanyLogo: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/PrintCompanyLogo=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/PrintCompanyLogo=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintCompanyLogo=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintCompanyLogo=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintCompanyLogo=false
+}
+
+
+Language: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/Language=0
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/Language=0
+}
+
+
+is-IS: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/is-IS=[Ljava.lang.String;@5e3974
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/is-IS=[Ljava.lang.String;@76cbf7
+}
+
+
+DataCommandType: {
+---org.openoffice.Office.Writer/MailMergeWizard/AddressDataAssignments/org.openoffice.Office.Writer:AddressDataAssignment['_0']/DataSource/DataCommandType=0
+---org.openoffice.Office.Writer/MailMergeWizard/DataSource/DataCommandType=0
+}
+
+
+Version: {
+---org.openoffice.Office.Common/Filter/Graphic/Export/EPS/Version=2
+---org.openoffice.Office.Common/View/SplitWindow/Version=Any[Type[void], null]
+---org.openoffice.Office.Common/View/Window/Version=
+---org.openoffice.Office.Java/Install/Version=
+---org.openoffice.Office.Java/VirtualMachine/Version=NULL
+}
+
+
+WorkState: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/WorkState=State (Work)
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/WorkState=Business Address State
+}
+
+
+SupportedFileExtensions: {
+---org.openoffice.Office.Scripting/ScriptRuntimes/org.openoffice.Office.Scripting:RuntimeNode['BeanShell']/SupportedFileExtensions=[Ljava.lang.String;@11a64ed
+---org.openoffice.Office.Scripting/ScriptRuntimes/org.openoffice.Office.Scripting:RuntimeNode['JavaScript']/SupportedFileExtensions=[Ljava.lang.String;@1d80e6d
+---org.openoffice.Office.Scripting/ScriptRuntimes/org.openoffice.Office.Scripting:RuntimeNode['Python']/SupportedFileExtensions=[Ljava.lang.String;@19b5393
+}
+
+
+Selectable: {
+---org.openoffice.Office.Draw/Misc/TextObject/Selectable=true
+---org.openoffice.Office.Impress/Misc/TextObject/Selectable=true
+}
+
+
+Notes: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/Notes=Comments
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/Notes=note
+}
+
+
+Enabled: {
+---org.openoffice.Office.Common/Help/HelpAgent/Enabled=true
+---org.openoffice.Office.Common/View/FontAntiAliasing/Enabled=true
+---org.openoffice.Office.Recovery/AutoSave/Enabled=true
+---org.openoffice.Office.Recovery/CrashReporter/Enabled=false
+---org.openoffice.Office.Recovery/RecoveryInfo/Enabled=true
+}
+
+
+SnapLine: {
+---org.openoffice.Office.Draw/Snap/Object/SnapLine=false
+---org.openoffice.Office.Impress/Snap/Object/SnapLine=true
+}
+
+
+AddBetween: {
+---org.openoffice.Office.Impress/Misc/Compatibility/AddBetween=false
+---org.openoffice.Office.Writer/Compatibility/MS_Word/AddBetween=false
+}
+
+
+FontCharset: {
+---org.openoffice.Office.Writer/AutoFunction/Format/ByInput/ApplyNumbering/SpecialCharacter/FontCharset=10
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/ChangeToBullets/SpecialCharacter/FontCharset=10
+}
+
+
+DetectSpecialNumbers: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/DetectSpecialNumbers=false
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/DetectSpecialNumbers=true
+}
+
+
+Date: {
+---org.openoffice.Office.Draw/Print/Other/Date=false
+---org.openoffice.Office.Impress/Print/Other/Date=false
+---org.openoffice.Office.Writer/Wizards/Agenda/Date=Any[Type[void], null]
+}
+
+
+Salutation: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/Salutation=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/Salutation=
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/Salutation=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/Salutation=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/Salutation=
+}
+
+
+Street: {
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/Street=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/Street=Any[Type[void], null]
+}
+
+
+PagerNumber: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/PagerNumber=Pager
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/PagerNumber=pager
+}
+
+
+Time: {
+---org.openoffice.Office.Draw/Print/Other/Time=false
+---org.openoffice.Office.Impress/Print/Other/Time=false
+---org.openoffice.Office.Writer/Wizards/Agenda/Time=Any[Type[void], null]
+}
+
+
+IsMatch_DiZi_DuZu: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatch_DiZi_DuZu=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatch_DiZi_DuZu=true
+}
+
+
+IsSimilaritySearch: {
+---org.openoffice.Office.Common/SearchOptions/IsSimilaritySearch=false
+---org.openoffice.Office.DataAccess/FormSearchOptions/IsSimilaritySearch=false
+}
+
+
+AcceleratedImplementations: {
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.Canvas']/AcceleratedImplementations=[Ljava.lang.String;@42719c
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.Canvas.MultiScreen']/AcceleratedImplementations=[Ljava.lang.String;@f72617
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.SpriteCanvas']/AcceleratedImplementations=[Ljava.lang.String;@4f1d0d
+---org.openoffice.Office.Canvas/CanvasServiceList/org.openoffice.Office.Canvas:CanvasService['com.sun.star.rendering.SpriteCanvas.MultiScreen']/AcceleratedImplementations=[Ljava.lang.String;@1bab50a
+}
+
+
+NoDistort: {
+---org.openoffice.Office.Draw/Misc/NoDistort=false
+---org.openoffice.Office.Impress/Misc/NoDistort=false
+}
+
+
+PreferMailFormat: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/PreferMailFormat=Mail Format
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/PreferMailFormat=wants_html
+}
+
+
+Palette: {
+---org.openoffice.Office.Common/Path/Current/Palette=$(userurl)/config
+---org.openoffice.Office.Common/Path/Default/Palette=$(userurl)/config
+}
+
+
+JPEGCompression: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/JPEGCompression=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/JPEGCompression=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/JPEGCompression=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/JPEGCompression=true
+}
+
+
+Heading: {
+---org.openoffice.Office.Writer/DefaultFont/Heading=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCJK/Heading=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCTL/Heading=Any[Type[void], null]
+}
+
+
+LargeControlPoint: {
+---org.openoffice.Office.Calc/Layout/Line/LargeControlPoint=false
+---org.openoffice.Office.Writer/Layout/Line/LargeControlPoint=false
+---org.openoffice.Office.WriterWeb/Layout/Line/LargeControlPoint=false
+}
+
+
+Executable: {
+---org.openoffice.Office.Calc/Filter/Import/VBA/Executable=true
+---org.openoffice.Office.Writer/Filter/Import/VBA/Executable=true
+}
+
+
+BirthMonth: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/BirthMonth=Birth Month
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/BirthMonth=Birth Month
+}
+
+
+HomeCountry: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/HomeCountry=Country
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/HomeCountry=Home Address Country
+}
+
+
+FixedWidth: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/FixedWidth=false
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/FixedWidth=false
+---org.openoffice.Office.Calc/Dialogs/TextToColumnsImport/FixedWidth=false
+}
+
+
+WorkZipCode: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/WorkZipCode=Zip/Postal (Work)
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/WorkZipCode=Business Address PostCode
+}
+
+
+FileFormat: {
+---org.openoffice.Office.Common/Filter/Graphic/Export/PBM/FileFormat=1
+---org.openoffice.Office.Common/Filter/Graphic/Export/PGM/FileFormat=1
+---org.openoffice.Office.Common/Filter/Graphic/Export/PPM/FileFormat=1
+}
+
+
+Work: {
+---org.openoffice.Office.Common/Path/Current/Work=$(work)
+---org.openoffice.Office.Common/Path/Default/Work=$(work)
+---org.openoffice.Office.Paths/Variables/Work=file:///home/djin/Documents
+}
+
+
+Zip: {
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/Zip=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/Zip=Any[Type[void], null]
+}
+
+
+NotesView: {
+---org.openoffice.Office.Impress/MultiPaneGUI/SlideSorterBar/Visible/NotesView=true
+---org.openoffice.Office.Impress/MultiPaneGUI/ToolPanel/Visible/NotesView=true
+}
+
+
+PageName: {
+---org.openoffice.Office.Draw/Print/Other/PageName=false
+---org.openoffice.Office.Impress/Print/Other/PageName=false
+}
+
+
+SANS_UNICODE: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['am']/SANS_UNICODE=Nyala;Abyssinica SIL
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ar']/SANS_UNICODE=Tahoma;Lucidasans;Lucida Sans;Arial Unicode MS;Lucida Sans Unicode;Albany AMT;Albany;Arial;Nimbus Sans L;Helvetica;Lucida;Geneva;Helmet;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/SANS_UNICODE=Arial Unicode MS;DejaVu Sans;Lucida Sans Unicode;Tahoma;Albany AMT;Albany;Arial;Nimbus Sans L;Helvetica;Lucida;Geneva;Helmet;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/SANS_UNICODE=썬굴림;SunGulim;Baekmuk Gulim;굴림;Gulim;Baekmuk Batang;Arial Unicode MS;Lucida Sans Unicode;Tahoma;Albany AMT;Albany;Arial;Nimbus Sans L;Helvetica;Lucida;Geneva;Helmet;SansSerif
+}
+
+
+AutoCorrect: {
+---org.openoffice.Office.Common/Path/Current/AutoCorrect=[Ljava.lang.String;@5483cd
+---org.openoffice.Office.Common/Path/Default/AutoCorrect=[Ljava.lang.String;@14b7453
+}
+
+
+Field: {
+---org.openoffice.Office.Writer/Content/Update/Field=true
+---org.openoffice.Office.WriterWeb/Content/Highlighting/Field=true
+}
+
+
+IsMatchMinusDashCho-on: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatchMinusDashCho-on=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatchMinusDashCho-on=true
+}
+
+
+HorizontalDistance: {
+---org.openoffice.Office.Writer/BusinessCard/Format/HorizontalDistance=10000
+---org.openoffice.Office.Writer/Label/Format/HorizontalDistance=10000
+}
+
+
+IsUseAsianOptions: {
+---org.openoffice.Office.Common/SearchOptions/IsUseAsianOptions=false
+---org.openoffice.Office.DataAccess/FormSearchOptions/IsUseAsianOptions=false
+}
+
+
+SupportedDictionaryFormats: {
+---org.openoffice.Office.Linguistic/ServiceManager/Hyphenators/org.openoffice.Office.Linguistic:DictionaryUsingService['org.openoffice.lingu.LibHnjHyphenator']/SupportedDictionaryFormats=[Ljava.lang.String;@ab853b
+---org.openoffice.Office.Linguistic/ServiceManager/SpellCheckers/org.openoffice.Office.Linguistic:DictionaryUsingService['org.openoffice.lingu.MySpellSpellChecker']/SupportedDictionaryFormats=[Ljava.lang.String;@1b383e9
+---org.openoffice.Office.Linguistic/ServiceManager/Thesauri/org.openoffice.Office.Linguistic:DictionaryUsingService['org.openoffice.lingu.new.Thesaurus']/SupportedDictionaryFormats=[Ljava.lang.String;@99681b
+}
+
+
+ReduceGradients: {
+---org.openoffice.Office.Common/Print/Option/File/ReduceGradients=false
+---org.openoffice.Office.Common/Print/Option/Printer/ReduceGradients=false
+}
+
+
+ShowPreview: {
+---org.openoffice.Office.Writer/AutoFunction/Text/ShowPreview=false
+---org.openoffice.Office.Writer/Index/ShowPreview=true
+}
+
+
+VerticalRuler: {
+---org.openoffice.Office.Writer/Layout/Window/VerticalRuler=true
+---org.openoffice.Office.WriterWeb/Layout/Window/VerticalRuler=false
+}
+
+
+LATIN_PRESENTATION: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ak-GH']/LATIN_PRESENTATION=Arial Unicode MS;Lucida Sans Unicode;Gentium;Aboriginal Sans;FreeSans;Albany AMT;Albany;Arial;Nimbus Sans L;Luxi Sans;Helvetica;Lucida;Geneva;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/LATIN_PRESENTATION=Albany AMT;Albany;Arial;Arimo;Liberation Sans;Nimbus Sans L;DejaVu Sans;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ja']/LATIN_PRESENTATION=Andale;Arial
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/LATIN_PRESENTATION=썬굴림;SunGulim;Baekmuk Gulim;굴림;Gulim;Batang;Myeongjo;Gulim;Baekmuk Batang;Roundgothic;Thorndale AMT;Thorndale;Times New Roman;Nimbus Roman No9 L;Times;Lucida Serif;Lucida Bright;Timmons;New York;Serif;Arial Unicode MS;Lucida Sans Unicode;Tahoma
+}
+
+
+IsMatch_HyuIyu_ByuVyu: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatch_HyuIyu_ByuVyu=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatch_HyuIyu_ByuVyu=true
+}
+
+
+JPEGQuality: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/JPEGQuality=50
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/JPEGQuality=25
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/JPEGQuality=50
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/JPEGQuality=75
+}
+
+
+PrintFooter: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/PrintFooter=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/PrintFooter=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintFooter=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintFooter=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintFooter=true
+}
+
+
+LATIN_SPREADSHEET: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ak-GH']/LATIN_SPREADSHEET=Arial Unicode MS;Lucida Sans Unicode;Gentium;Aboriginal Sans;FreeSans;Albany AMT;Albany;Arial;Nimbus Sans L;Luxi Sans;Helvetica;Lucida;Geneva;Helmet;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/LATIN_SPREADSHEET=Albany AMT;Albany;Arial;Arimo;Liberation Sans;Nimbus Sans L;DejaVu Sans;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ja']/LATIN_SPREADSHEET=HG PゴシックB Sun;HG-PGothicB Sun;HG PゴシックB;HG-PGothicB;ＭＳ Ｐゴシック;ヒラギノ角ゴ ProN W3;ヒラギノ角ゴ Pro W3;TLPゴシック;LXゴシック;HGPGothicB;IPA Pゴシック;東風ゴシック;MS Gothic;HG Gothic J;HG Gothic B;HG Gothic;Kochi Gothic;MS PGothic;UmePlus P Gothic;Gothic
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/LATIN_SPREADSHEET=썬돋움;SunDotum;Baekmuk Dotum;돋움;Dotum;백묵돋움;BaekmukDotum;Batang;Myeongjo;썬굴림;SunGulim;Baekmuk Gulim;Gulim;Baekmuk Batang;Roundgothic
+}
+
+
+PointReduction: {
+---org.openoffice.Office.Draw/Snap/Position/PointReduction=1500
+---org.openoffice.Office.Impress/Snap/Position/PointReduction=1500
+}
+
+
+Greeting: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/Greeting=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/Greeting=
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/Greeting=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/Greeting=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/Greeting=
+}
+
+
+ProtectedSpace: {
+---org.openoffice.Office.Writer/Content/NonprintingCharacter/ProtectedSpace=true
+---org.openoffice.Office.WriterWeb/Content/NonprintingCharacter/ProtectedSpace=true
+}
+
+
+Font: {
+---org.openoffice.Office.Writer/AutoFunction/Format/ByInput/ApplyNumbering/SpecialCharacter/Font=StarSymbol
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/ChangeToBullets/SpecialCharacter/Font=StarSymbol
+}
+
+
+IsMatchContractions: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatchContractions=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatchContractions=true
+}
+
+
+OLEOptimizationType: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/OLEOptimizationType=0
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/OLEOptimizationType=0
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/OLEOptimizationType=0
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/OLEOptimizationType=0
+}
+
+
+CopyWhileMoving: {
+---org.openoffice.Office.Draw/Misc/CopyWhileMoving=true
+---org.openoffice.Office.Impress/Misc/CopyWhileMoving=true
+}
+
+
+CellularNumber: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/CellularNumber=Mobile
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/CellularNumber=mobile_phone
+}
+
+
+IsMatchFullHalfWidthForms: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatchFullHalfWidthForms=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatchFullHalfWidthForms=true
+}
+
+
+Standard: {
+---org.openoffice.Office.Writer/DefaultFont/Standard=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCJK/Standard=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCTL/Standard=Any[Type[void], null]
+}
+
+
+Italic: {
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id1']/Italic=0
+---org.openoffice.Office.Math/FontFormatList/org.openoffice.Office.Math:FontFormat['Id2']/Italic=0
+}
+
+
+Database: {
+---org.openoffice.Office.Writer/Envelope/Inscription/Database=
+---org.openoffice.Office.Writer/Label/Inscription/Database=
+}
+
+
+DclickTextedit: {
+---org.openoffice.Office.Draw/Misc/DclickTextedit=true
+---org.openoffice.Office.Impress/Misc/DclickTextedit=true
+}
+
+
+Norm: {
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/Norm=0
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/Norm=0
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/Norm=0
+}
+
+
+UseOurTextWrapping: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/UseOurTextWrapping=false
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/UseOurTextWrapping=false
+}
+
+
+Document: {
+---org.openoffice.Office.Writer/DefaultFont/Document=false
+---org.openoffice.Office.Writer/DefaultFontCJK/Document=false
+---org.openoffice.Office.Writer/DefaultFontCTL/Document=false
+}
+
+
+Location: {
+---org.openoffice.Office.DataAccess/RegisteredNames/org.openoffice.Office.DataAccess:DatabaseDocumentRegistration['org.openoffice.Bibliography']/Location=$(userurl)/database/biblio.odb
+---org.openoffice.Office.Writer/Wizards/Agenda/Location=Any[Type[void], null]
+}
+
+
+CommandType: {
+---org.openoffice.Office.DataAccess/AddressBook/CommandType=Any[Type[void], null]
+---org.openoffice.Office.DataAccess/Bibliography/CurrentDataSource/CommandType=0
+---org.openoffice.Office.DataAccess/Bibliography/DataSourceHistory/org.openoffice.Office.DataAccess:DataSource['Default']/CommandType=0
+}
+
+
+AddSpacingAtPages: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/AddSpacingAtPages=true
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/AddSpacingAtPages=true
+}
+
+
+PrintLetterSigns: {
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintLetterSigns=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintLetterSigns=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintLetterSigns=false
+}
+
+
+Layout: {
+---org.openoffice.Office.Impress/Misc/NewDoc/Layout=true
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Design/Layout=table_3
+}
+
+
+PreventTips: {
+---org.openoffice.Office.Writer/Content/Display/PreventTips=false
+---org.openoffice.Office.WriterWeb/Content/Display/PreventTips=false
+}
+
+
+UseOurTabStopFormat: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/UseOurTabStopFormat=false
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/UseOurTabStopFormat=false
+}
+
+
+ReducedGradientStepCount: {
+---org.openoffice.Office.Common/Print/Option/File/ReducedGradientStepCount=64
+---org.openoffice.Office.Common/Print/Option/Printer/ReducedGradientStepCount=64
+}
+
+
+LATIN_TEXT: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ak-GH']/LATIN_TEXT=Gentium;Aboriginal Serif;FreeSerif;Luxi Serif;Thorndale AMT;Thorndale;Times New Roman;Nimbus Roman No9 L;Times;Lucida Serif;Lucida Bright;Serif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/LATIN_TEXT=Thorndale AMT;Thorndale;Times New Roman;Tinos;Liberation Serif;Nimbus Roman No9 L;DejaVu Serif;Times;Lucida Serif;Lucida Bright;Timmons;New York;Serif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/LATIN_TEXT=썬바탕;SunBatang;Baekmuk Batang;Batang;Myeongjo;썬굴림;SunGulim;Baekmuk Gulim;Gulim;Baekmuk Batang;Roundgothic;Thorndale AMT;Thorndale;Times New Roman;Nimbus Roman No9 L;Times;Lucida Serif;Lucida Bright;Timmons;New York;Serif;Arial Unicode MS;Lucida Sans Unicode;Tahoma
+}
+
+
+CapitalAtStartSentence: {
+---org.openoffice.Office.Common/AutoCorrect/CapitalAtStartSentence=true
+---org.openoffice.Office.Common/AutoCorrect/Exceptions/CapitalAtStartSentence=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/CapitalAtStartSentence=true
+}
+
+
+SnapToGrid: {
+---org.openoffice.Office.Calc/Grid/Option/SnapToGrid=false
+---org.openoffice.Office.Draw/Grid/Option/SnapToGrid=true
+---org.openoffice.Office.Impress/Grid/Option/SnapToGrid=true
+---org.openoffice.Office.Writer/Grid/Option/SnapToGrid=false
+---org.openoffice.Office.WriterWeb/Grid/Option/SnapToGrid=false
+}
+
+
+ImpressView: {
+---org.openoffice.Office.Impress/MultiPaneGUI/SlideSorterBar/Visible/ImpressView=true
+---org.openoffice.Office.Impress/MultiPaneGUI/ToolPanel/Visible/ImpressView=true
+}
+
+
+LATIN_DISPLAY: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ak-GH']/LATIN_DISPLAY=Arial Unicode MS;Lucida Sans Unicode;Gentium;Aboriginal Sans;FreeSans;Albany AMT;Albany;Arial;Nimbus Sans L;Luxi Sans;Helvetica;Lucida;Geneva;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/LATIN_DISPLAY=Albany AMT;Albany;Arial;Arimo;Liberation Sans;Nimbus Sans L;DejaVu Sans;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/LATIN_DISPLAY=썬돋움;SunDotum;Baekmuk Dotum;돋움;Dotum;썬굴림;SunGulim;Baekmuk Gulim;굴림;Gulim;Baekmuk Batang;Roundgothic;Albany AMT;Albany;Arial;Nimbus Sans L;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+}
+
+
+Steps: {
+---org.openoffice.Office.Calc/Calculate/IterativeReference/Steps=100
+---org.openoffice.Office.Common/Undo/Steps=100
+---org.openoffice.Office.Draw/Misc/CrossFading/Steps=16
+}
+
+
+UIConfig: {
+---org.openoffice.Office.Common/Path/Current/UIConfig=[Ljava.lang.String;@1186fab
+---org.openoffice.Office.Common/Path/Default/UIConfig=[Ljava.lang.String;@15f5897
+}
+
+
+IsBackwards: {
+---org.openoffice.Office.Common/SearchOptions/IsBackwards=false
+---org.openoffice.Office.DataAccess/FormSearchOptions/IsBackwards=false
+}
+
+
+TextPlaceholder: {
+---org.openoffice.Office.Draw/Content/Display/TextPlaceholder=false
+---org.openoffice.Office.Impress/Content/Display/TextPlaceholder=false
+}
+
+
+Company: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/Company=Company
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/Company=org
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/Company=Any[Type[void], null]
+}
+
+
+HomeAddress: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/HomeAddress=Address 1
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/HomeAddress=Home Address
+}
+
+
+AutoText: {
+---org.openoffice.Office.Common/Path/Current/AutoText=[Ljava.lang.String;@9931f5
+---org.openoffice.Office.Common/Path/Default/AutoText=[Ljava.lang.String;@c21495
+}
+
+
+Basic: {
+---org.openoffice.Office.Common/Filter/HTML/Export/Basic=false
+---org.openoffice.Office.Common/Path/Current/Basic=[Ljava.lang.String;@19ee1ac
+---org.openoffice.Office.Common/Path/Default/Basic=[Ljava.lang.String;@1d5550d
+}
+
+
+AddSpacing: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/AddSpacing=true
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/AddSpacing=true
+}
+
+
+JobTitle: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/JobTitle=Job Title
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/JobTitle=title
+}
+
+
+Save: {
+---org.openoffice.Office.Calc/Filter/Import/VBA/Save=true
+---org.openoffice.Office.Impress/Filter/Import/VBA/Save=true
+---org.openoffice.Office.Writer/Filter/Import/VBA/Save=true
+}
+
+
+LastName: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/LastName=Last Name
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/LastName=family_name
+}
+
+
+Separators: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/Separators=,;	
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/Separators=	
+---org.openoffice.Office.Calc/Dialogs/TextToColumnsImport/Separators=	
+}
+
+
+PrintCompanyAddressReceiverField: {
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintCompanyAddressReceiverField=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintCompanyAddressReceiverField=false
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintCompanyAddressReceiverField=true
+}
+
+
+Drawing: {
+---org.openoffice.Office.Draw/Print/Content/Drawing=true
+---org.openoffice.Office.Writer/Print/Content/Drawing=true
+}
+
+
+Config: {
+---org.openoffice.Office.Common/Path/Current/Config=$(insturl)/share/config
+---org.openoffice.Office.Common/Path/Default/Config=$(insturl)/share/config
+}
+
+
+WorkCity: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/WorkCity=City (Work)
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/WorkCity=Business Address City
+}
+
+
+Booklet: {
+---org.openoffice.Office.Draw/Print/Page/Booklet=false
+---org.openoffice.Office.Impress/Print/Page/Booklet=false
+}
+
+
+OLE_Objects: {
+---org.openoffice.Office.Common/Cache/DrawingEngine/OLE_Objects=20
+---org.openoffice.Office.Common/Cache/Writer/OLE_Objects=20
+}
+
+
+Dictionary: {
+---org.openoffice.Office.Common/Path/Current/Dictionary=$(insturl)/share/wordbook
+---org.openoffice.Office.Common/Path/Default/Dictionary=$(insturl)/share/wordbook/$(vlang)
+}
+
+
+ContourMode: {
+---org.openoffice.Office.Draw/Content/Display/ContourMode=false
+---org.openoffice.Office.Impress/Content/Display/ContourMode=false
+}
+
+
+RemoveCropArea: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/RemoveCropArea=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/RemoveCropArea=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/RemoveCropArea=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/RemoveCropArea=true
+}
+
+
+Plugin: {
+---org.openoffice.Office.Common/Path/Current/Plugin=[Ljava.lang.String;@1befab0
+---org.openoffice.Office.Common/Path/Default/Plugin=[Ljava.lang.String;@a0dcd9
+}
+
+
+UserConfig: {
+---org.openoffice.Office.Common/Path/Current/UserConfig=$(userurl)/config
+---org.openoffice.Office.Common/Path/Default/UserConfig=$(userurl)/config
+}
+
+
+QuickEditing: {
+---org.openoffice.Office.Draw/Misc/TextObject/QuickEditing=true
+---org.openoffice.Office.Impress/Misc/TextObject/QuickEditing=true
+}
+
+
+ExpandWordSpace: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/ExpandWordSpace=true
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/ExpandWordSpace=true
+}
+
+
+HomeZipCode: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/HomeZipCode=ZIP/Postal (Home)
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/HomeZipCode=Home Address PostCode
+}
+
+
+OpenNewDocument: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/OpenNewDocument=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/OpenNewDocument=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/OpenNewDocument=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/OpenNewDocument=true
+}
+
+
+Quality: {
+---org.openoffice.Office.Common/Filter/Graphic/Export/JPG/Quality=75
+---org.openoffice.Office.Common/Filter/PDF/Export/Quality=90
+---org.openoffice.Office.Draw/Print/Other/Quality=0
+---org.openoffice.Office.Impress/Print/Other/Quality=0
+}
+
+
+HomePhone: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/HomePhone=Phone (Home)
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/HomePhone=home_phone
+}
+
+
+SANS: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ak-GH']/SANS=Arial Unicode MS;Lucida Sans Unicode;Gentium;Aboriginal Sans;FreeSans;Albany AMT;Albany;Arial;Nimbus Sans L;Luxi Sans;Helvetica;Lucida;Geneva;Helmet;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/SANS=Albany AMT;Albany;Arial;Arimo;Liberation Sans;Nimbus Sans L;DejaVu Sans;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/SANS=썬돋움;SunDotum;Baekmuk Dotum;돋움;Dotum;바탕;Batang;Myeongjo;썬굴림;SunGulim;Baekmuk Gulim;굴림;Gulim;Baekmuk Batang;Roundgothic;Albany AMT;Albany;Arial;Nimbus Sans L;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+}
+
+
+HomeAddress2: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/HomeAddress2=Address 2
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/HomeAddress2=Home Address2
+}
+
+
+Country: {
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/Country=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/Country=Any[Type[void], null]
+}
+
+
+UserItem: {
+---org.openoffice.Office.Views/Windows/org.openoffice.Office.Views:WindowType['SplitWindow0']/UserData/UserItem=V1,2,2,0,27414,0,27415
+---org.openoffice.Office.Views/Windows/org.openoffice.Office.Views:WindowType['SplitWindow1']/UserData/UserItem=V1,2,0
+---org.openoffice.Office.Views/Windows/org.openoffice.Office.Views:WindowType['SplitWindow2']/UserData/UserItem=V1,2,1,0,10370
+---org.openoffice.Office.Views/Windows/org.openoffice.Office.Views:WindowType['SplitWindow3']/UserData/UserItem=V1,2,1,0,30378
+}
+
+
+HorizontalRulerUnit: {
+---org.openoffice.Office.Writer/Layout/Window/HorizontalRulerUnit=Any[Type[void], null]
+---org.openoffice.Office.WriterWeb/Layout/Window/HorizontalRulerUnit=Any[Type[void], null]
+}
+
+
+Email: {
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/GeneralInfo/Email=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/Email=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/Email=Any[Type[void], null]
+}
+
+
+Publish: {
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Publishing/org.openoffice.Office.WebWizard:WWizPublish['ftp']/Publish=false
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Publishing/org.openoffice.Office.WebWizard:WWizPublish['local']/Publish=true
+---org.openoffice.Office.WebWizard/WebWizard/DefaultSession/Publishing/org.openoffice.Office.WebWizard:WWizPublish['zip']/Publish=false
+}
+
+
+Caption: {
+---org.openoffice.Office.Writer/DefaultFont/Caption=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCJK/Caption=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCTL/Caption=Any[Type[void], null]
+}
+
+
+ReducedBitmapMode: {
+---org.openoffice.Office.Common/Print/Option/File/ReducedBitmapMode=1
+---org.openoffice.Office.Common/Print/Option/Printer/ReducedBitmapMode=1
+}
+
+
+UseLineSpacing: {
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_default']/UseLineSpacing=false
+---org.openoffice.Office.Compatibility/AllFileFormats/org.openoffice.Office.Compatibility:FormattingOptions['_user']/UseLineSpacing=false
+}
+
+
+IndexHeight: {
+---org.openoffice.Office.Writer/DefaultFont/IndexHeight=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCJK/IndexHeight=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCTL/IndexHeight=Any[Type[void], null]
+}
+
+
+HorizontalRuler: {
+---org.openoffice.Office.Writer/Layout/Window/HorizontalRuler=true
+---org.openoffice.Office.WriterWeb/Layout/Window/HorizontalRuler=true
+}
+
+
+uk-UA: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/uk-UA=[Ljava.lang.String;@137c60d
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/uk-UA=[Ljava.lang.String;@1e04cbf
+}
+
+
+Link: {
+---org.openoffice.Office.Calc/Content/Update/Link=2
+---org.openoffice.Office.Writer/Content/Update/Link=1
+}
+
+
+FontFamily: {
+---org.openoffice.Office.Writer/AutoFunction/Format/ByInput/ApplyNumbering/SpecialCharacter/FontFamily=0
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/ChangeToBullets/SpecialCharacter/FontFamily=0
+}
+
+
+VerticalScroll: {
+---org.openoffice.Office.Calc/Layout/Window/VerticalScroll=true
+---org.openoffice.Office.Writer/Layout/Window/VerticalScroll=true
+---org.openoffice.Office.WriterWeb/Layout/Window/VerticalScroll=true
+}
+
+
+SenderCity: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/SenderCity=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/SenderCity=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/SenderCity=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/SenderCity=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/SenderCity=
+}
+
+
+UserDictionary: {
+---org.openoffice.Office.Common/Path/Current/UserDictionary=$(userurl)/wordbook
+---org.openoffice.Office.Common/Path/Default/UserDictionary=$(userurl)/wordbook
+}
+
+
+SenderAddressType: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/SenderAddressType=1
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/SenderAddressType=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/SenderAddressType=1
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/SenderAddressType=0
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/SenderAddressType=1
+}
+
+
+SenderPostCode: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/SenderPostCode=
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/SenderPostCode=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/SenderPostCode=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/SenderPostCode=
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/SenderPostCode=
+}
+
+
+ImageResolution: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/ImageResolution=150
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/ImageResolution=90
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/ImageResolution=150
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/ImageResolution=300
+}
+
+
+page data: {
+---org.openoffice.Office.Views/TabPages/org.openoffice.Office.Views:TabPageType['10060']/UserData/page data=0
+---org.openoffice.Office.Views/TabPages/org.openoffice.Office.Views:TabPageType['10249']/UserData/page data=0
+---org.openoffice.Office.Views/TabPages/org.openoffice.Office.Views:TabPageType['12006']/UserData/page data=210;1
+}
+
+
+List: {
+---org.openoffice.Office.Calc/SortList/List=[Ljava.lang.String;@10385c1
+---org.openoffice.Office.Writer/DefaultFont/List=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCJK/List=Any[Type[void], null]
+---org.openoffice.Office.Writer/DefaultFontCTL/List=Any[Type[void], null]
+}
+
+
+da-DK: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/da-DK=[Ljava.lang.String;@1415de6
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/da-DK=[Ljava.lang.String;@11c8a71
+}
+
+
+PrimaryEmail: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/PrimaryEmail=E-mail
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/PrimaryEmail=email
+}
+
+
+RotatingValue: {
+---org.openoffice.Office.Draw/Snap/Position/RotatingValue=1500
+---org.openoffice.Office.Impress/Snap/Position/RotatingValue=1500
+}
+
+
+ModifyWithAttributes: {
+---org.openoffice.Office.Draw/Misc/ModifyWithAttributes=true
+---org.openoffice.Office.Impress/Misc/ModifyWithAttributes=true
+}
+
+
+Contour: {
+---org.openoffice.Office.Draw/Layout/Display/Contour=true
+---org.openoffice.Office.Impress/Layout/Display/Contour=true
+}
+
+
+IsIgnoreProlongedSoundMark: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsIgnoreProlongedSoundMark=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsIgnoreProlongedSoundMark=true
+}
+
+
+BezierObject: {
+---org.openoffice.Office.Writer/ObjectBar/Selection/BezierObject=-1
+---org.openoffice.Office.WriterWeb/ObjectBar/Selection/BezierObject=-1
+}
+
+
+ReceiverAddressType: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/ReceiverAddressType=1
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/ReceiverAddressType=Any[Type[void], null]
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/ReceiverAddressType=1
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/ReceiverAddressType=0
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/ReceiverAddressType=1
+}
+
+
+FNPostfix: {
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset0']/FNPostfix=.gif
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset1']/FNPostfix=.gif
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset2']/FNPostfix=.gif
+---org.openoffice.Office.WebWizard/WebWizard/IconSets/org.openoffice.Office.WebWizard:WWizIconSet['iconset3']/FNPostfix=.gif
+}
+
+
+BirthYear: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/BirthYear=Birth Year
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/BirthYear=Birth Year
+}
+
+
+FromPrinterSetup: {
+---org.openoffice.Office.Draw/Print/Other/FromPrinterSetup=false
+---org.openoffice.Office.Impress/Print/Other/FromPrinterSetup=false
+---org.openoffice.Office.Writer/Print/Papertray/FromPrinterSetup=false
+---org.openoffice.Office.WriterWeb/Print/Papertray/FromPrinterSetup=false
+}
+
+
+PrintCommunicationType: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/PrintCommunicationType=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/PrintCommunicationType=Any[Type[void], null]
+}
+
+
+PageTile: {
+---org.openoffice.Office.Draw/Print/Page/PageTile=false
+---org.openoffice.Office.Impress/Print/Page/PageTile=false
+}
+
+
+IsMatch_SeShe_ZeJe: {
+---org.openoffice.Office.Common/SearchOptions/Japanese/IsMatch_SeShe_ZeJe=true
+---org.openoffice.Office.DataAccess/FormSearchOptions/Japanese/IsMatch_SeShe_ZeJe=true
+}
+
+
+EmbedLinkedGraphics: {
+---org.openoffice.Office.extension.SunPresentationMinimizer/LastUsedSettings/EmbedLinkedGraphics=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template1']/EmbedLinkedGraphics=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template2']/EmbedLinkedGraphics=true
+---org.openoffice.Office.extension.SunPresentationMinimizer/Settings/Templates/org.openoffice.Office.extension.SunPresentationMinimizer:OptimizerSettings['template3']/EmbedLinkedGraphics=true
+}
+
+
+Bitmap: {
+---org.openoffice.Office.Common/Path/Current/Bitmap=$(insturl)/share/config/symbol
+---org.openoffice.Office.Common/Path/Default/Bitmap=$(insturl)/share/config/symbol
+}
+
+
+Interlaced: {
+---org.openoffice.Office.Common/Filter/Graphic/Export/GIF/Interlaced=1
+---org.openoffice.Office.Common/Filter/Graphic/Export/PNG/Interlaced=1
+}
+
+
+RotateClick: {
+---org.openoffice.Office.Draw/Misc/RotateClick=false
+---org.openoffice.Office.Impress/Misc/RotateClick=true
+}
+
+
+MergeDelimiters: {
+---org.openoffice.Office.Calc/Dialogs/CSVImport/MergeDelimiters=false
+---org.openoffice.Office.Calc/Dialogs/ClipboardTextImport/MergeDelimiters=false
+---org.openoffice.Office.Calc/Dialogs/TextToColumnsImport/MergeDelimiters=false
+}
+
+
+GraphicObject: {
+---org.openoffice.Office.Writer/Content/Display/GraphicObject=true
+---org.openoffice.Office.WriterWeb/Content/Display/GraphicObject=true
+}
+
+
+ExtendEdges: {
+---org.openoffice.Office.Draw/Snap/Position/ExtendEdges=true
+---org.openoffice.Office.Impress/Snap/Position/ExtendEdges=true
+}
+
+
+SmoothScroll: {
+---org.openoffice.Office.Writer/Layout/Window/SmoothScroll=false
+---org.openoffice.Office.WriterWeb/Layout/Window/SmoothScroll=false
+}
+
+
+LATIN_HEADING: {
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ak-GH']/LATIN_HEADING=Arial Unicode MS;Lucida Sans Unicode;Gentium;Aboriginal Sans;FreeSans;Albany AMT;Albany;Arial;Nimbus Sans L;Luxi Sans;Helvetica;Lucida;Geneva;Helmet;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['en']/LATIN_HEADING=Albany AMT;Albany;Arial;Arimo;Liberation Sans;Nimbus Sans L;DejaVu Sans;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+---org.openoffice.VCL/DefaultFonts/org.openoffice.VCL:LocalizedDefaultFonts['ko-kr']/LATIN_HEADING=썬바탕;SunBatang;Baekmuk Batang;바탕;Batang;Myeongjo;썬굴림;SunGulim;Baekmuk Gulim;굴림;Gulim;Baekmuk Batang;Roundgothic;Albany AMT;Albany;Arial;Nimbus Sans L;Helvetica;Lucida;Geneva;Helmet;Arial Unicode MS;Lucida Sans Unicode;Tahoma;SansSerif
+}
+
+
+UILocale: {
+---org.openoffice.Office.Linguistic/General/UILocale=
+---org.openoffice.System/L10N/UILocale=en-US
+}
+
+
+sk-SK: {
+---org.openoffice.Office.Linguistic/ServiceManager/HyphenatorList/sk-SK=[Ljava.lang.String;@b5f53a
+---org.openoffice.Office.Linguistic/ServiceManager/LastFoundHyphenators/sk-SK=[Ljava.lang.String;@1cdeff
+}
+
+
+PrintGreeting: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/PrintGreeting=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/PrintGreeting=true
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintGreeting=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintGreeting=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintGreeting=true
+}
+
+
+PrintSubjectLine: {
+---org.openoffice.Office.Writer/Wizards/Fax/BusinessFax/PrintSubjectLine=true
+---org.openoffice.Office.Writer/Wizards/Fax/PrivateFax/PrintSubjectLine=true
+---org.openoffice.Office.Writer/Wizards/Letter/BusinessLetter/PrintSubjectLine=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateLetter/PrintSubjectLine=true
+---org.openoffice.Office.Writer/Wizards/Letter/PrivateOfficialLetter/PrintSubjectLine=true
+}
+
+
+SimpleControlPoint: {
+---org.openoffice.Office.Calc/Layout/Line/SimpleControlPoint=false
+---org.openoffice.Office.Writer/Layout/Line/SimpleControlPoint=false
+---org.openoffice.Office.WriterWeb/Layout/Line/SimpleControlPoint=false
+}
+
+
+ShowAlienFilterWarning: {
+---org.openoffice.Office.TypeDetection/Defaults/ShowAlienFilterWarning=true
+---org.openoffice.TypeDetection.Misc/Defaults/ShowAlienFilterWarning=true
+}
+
+
+Break: {
+---org.openoffice.Office.Writer/Content/NonprintingCharacter/Break=true
+---org.openoffice.Office.WriterWeb/Content/NonprintingCharacter/Break=true
+}
+
+
+Note: {
+---org.openoffice.Office.Impress/Print/Content/Note=false
+---org.openoffice.Office.Writer/Content/Display/Note=true
+---org.openoffice.Office.Writer/Print/Content/Note=0
+---org.openoffice.Office.WriterWeb/Content/Display/Note=true
+---org.openoffice.Office.WriterWeb/Print/Content/Note=0
+}
+
+
+DirectHelp: {
+---org.openoffice.Office.Common/Forms/PropertyBrowser/DirectHelp=false
+---org.openoffice.Office.ReportDesign/PropertyBrowser/DirectHelp=false
+}
+
+
+Brand: {
+---org.openoffice.Office.Writer/BusinessCard/Medium/Brand=
+---org.openoffice.Office.Writer/Label/Medium/Brand=
+}
+
+
+Favorite: {
+---org.openoffice.Office.Common/Path/Current/Favorite=$(userurl)/config/folders
+---org.openoffice.Office.Common/Path/Default/Favorite=$(userurl)/config/folders
+}
+
+
+Propagation: {
+---org.openoffice.Interaction/InteractionHandlers/org.openoffice.Interaction:InteractionHandlerImplementation['org.openoffice.Filter.PDFExport.Interactions']/HandledRequestTypes/org.openoffice.Interaction:RequestTypeResponsibility['com.sun.star.task.PDFExportException']/Propagation=named-and-derived
+---org.openoffice.Interaction/InteractionHandlers/org.openoffice.Interaction:InteractionHandlerImplementation['org.openoffice.Office.Base.DatabaseInteractions']/HandledRequestTypes/org.openoffice.Interaction:RequestTypeResponsibility['com.sun.star.sdb.DocumentSaveRequest']/Propagation=named-and-derived
+---org.openoffice.Interaction/InteractionHandlers/org.openoffice.Interaction:InteractionHandlerImplementation['org.openoffice.Office.Base.DatabaseInteractions']/HandledRequestTypes/org.openoffice.Interaction:RequestTypeResponsibility['com.sun.star.sdb.ParametersRequest']/Propagation=named-and-derived
+---org.openoffice.Interaction/InteractionHandlers/org.openoffice.Interaction:InteractionHandlerImplementation['org.openoffice.Office.Base.DatabaseInteractions']/HandledRequestTypes/org.openoffice.Interaction:RequestTypeResponsibility['com.sun.star.sdbc.SQLException']/Propagation=named-and-derived
+}
+
+
+BrochureRightToLeft: {
+---org.openoffice.Office.Writer/Print/Page/BrochureRightToLeft=false
+---org.openoffice.Office.WriterWeb/Print/Page/BrochureRightToLeft=false
+}
+
+
+ChangeUnderlineWeight: {
+---org.openoffice.Office.Common/AutoCorrect/ChangeUnderlineWeight=true
+---org.openoffice.Office.Writer/AutoFunction/Format/Option/ChangeUnderlineWeight=true
+}
+
+
+Department: {
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.MozabDriver/ColumnAliases/Department=Department
+---org.openoffice.Office.DataAccess/DriverSettings/com.sun.star.comp.sdbc.evoab.OEvoabDriver/ColumnAliases/Department=office
+}
+
+
+State: {
+---org.openoffice.Office.Common/View/SplitWindow/State=Any[Type[void], null]
+---org.openoffice.Office.Common/View/Window/State=false
+---org.openoffice.Office.Writer/BusinessCard/BusinessAddress/State=Any[Type[void], null]
+---org.openoffice.Office.Writer/BusinessCard/PrivateAddress/State=Any[Type[void], null]
+}
+
+
+ConsiderWrappingStyle: {
+---org.openoffice.Office.Compatibility/All

@@ -1,0 +1,3 @@
+org.openoffice.Office.Draw/Grid/Subdivision/XAxis=9.0
+org.openoffice.Office.Draw/Grid/Subdivision/YAxis=9.0
+org.openoffice.Office.Draw/Misc/Preview=0.0
