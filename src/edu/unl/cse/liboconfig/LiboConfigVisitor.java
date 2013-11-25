@@ -1,23 +1,11 @@
 package edu.unl.cse.liboconfig;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.PrintWriter;
 import java.lang.Exception;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Map;
-
 import com.sun.star.uno.UnoRuntime;
 import com.sun.star.beans.XPropertySet;
 import com.sun.star.bridge.XUnoUrlResolver;
-import com.sun.star.configuration.XTemplateInstance;
 import com.sun.star.container.XHierarchicalName;
 import com.sun.star.container.XNameAccess;
-import com.sun.star.container.XNamed;
 import com.sun.star.lang.XComponent;
 import com.sun.star.lang.XMultiComponentFactory;
 import com.sun.star.lang.XMultiServiceFactory;
@@ -31,107 +19,15 @@ public class LiboConfigVisitor {
 	private XMultiServiceFactory xProvider = null;
 
 	/**
-	 * Method to browse the filter configuration.
-	 * 
-	 * Information about installed filters will be printed.
+	 * Visitor that visit libreoffice configuration hierarchy 
+	 * and process each value in the hierarchy. 
 	 */
 	public void visit() throws com.sun.star.uno.Exception {
-		final String sProviderService = "com.sun.star.configuration.ConfigurationProvider";
 		final String sFilterKey = "/";  // Start walk from the root
-		// final String sFilterKey = "/org.openoffice.Office.Writer"; 
-		// final String sFilterKey = "/org.openoffice.TypeDetection.Filter/Filters"; 
 		
 		// browse the configuration, dumping filter information
 		IConfigurationProcessor processor = new ConfigurationProcessor(); 
 		browseConfiguration(sFilterKey, processor); 
-		
-//		browseConfiguration(sFilterKey, new IConfigurationProcessor() {
-//			// prints Path and Value of properties
-//			public void processValueElement(String sPath_, String sName_, Object aValue_) {
-//				allPrefs.add(sPath_);
-//				distinctPrefs.add(sPath_);
-//				
-//				if (!sameName.containsKey(sName_)){
-//					ArrayList<String> value = new ArrayList<String>(); 
-//					value.add(sPath_ + "=" + aValue_.toString()); 
-//					sameName.put(sName_, value); 
-//				}
-//				else {
-//					sameName.get(sName_).add(sPath_ + "=" + aValue_.toString()); 
-//				}
-//				
-//				String value = aValue_.toString();
-//
-//				// Categorization
-//				if (value.equalsIgnoreCase("true")
-//						|| value.equalsIgnoreCase("false")) {  // Boolean
-//					boolCount++;
-//				} else {
-//					try {  // Integer
-//						int temp = (Integer) aValue_;
-//						intCount++;
-//					} catch (Exception e) {  // Other types
-//						otherTypes.put(sPath_, aValue_.toString()); 
-//					}
-//				}
-//
-//				if (AnyConverter.isArray(aValue_)) {
-//					// final Object[] aArray = (Object[]) aValue_;
-//					outStream.write(sPath_ + '=' + aValue_ + '\n');
-//					// System.out.print("\tValue: " + sPath_ + " = { ");
-//					// for (int i = 0; i < aArray.length; ++i) {
-//					// if (i != 0)
-//					// System.out.print(", ");
-//					// System.out.print(aArray[i]);
-//					// }
-//					// System.out.println(" }");
-//				} else
-//					outStream.write(sPath_ + '=' + aValue_ + '\n');
-//				// System.out.println("\tValue: " + sPath_ + " = " + aValue_);
-//			}
-//
-//			// / prints the Filter entries
-//			public void processStructuralElement(String sPath_,
-//					XInterface xElement_) {
-//				// get template information, to detect instances of the 'Filter'
-//				// template
-//				XTemplateInstance xInstance = UnoRuntime.queryInterface(
-//						XTemplateInstance.class, xElement_);
-//
-//				// only select the Filter entries
-//				if (xInstance != null
-//						&& xInstance.getTemplateName().endsWith("Filter")) {
-//					XNamed xNamed = UnoRuntime.queryInterface(XNamed.class,
-//							xElement_);
-//					// System.out.println("Filter " + xNamed.getName() + " ("
-//					// + sPath_ + ")");
-//				}
-//			}
-//		});
-	}
-
-	/**
-	 * Create ConfigurationAccess instance with given path. 
-	 */
-	public Object createConfigurationView(String sPath)
-			throws com.sun.star.uno.Exception {
-
-		// The service name: Need only read access:
-		final String sReadOnlyView = "com.sun.star.configuration.ConfigurationAccess";
-
-		// creation arguments: nodepath
-		com.sun.star.beans.PropertyValue aPathArgument = new com.sun.star.beans.PropertyValue();
-		aPathArgument.Name = "nodepath";
-		aPathArgument.Value = sPath;
-
-		Object[] aArguments = new Object[1];
-		aArguments[0] = aPathArgument;
-
-		// create the view
-		Object xViewRoot = xProvider.createInstanceWithArguments(sReadOnlyView,
-				aArguments);
-
-		return xViewRoot;
 	}
 
 	/**
@@ -155,6 +51,29 @@ public class LiboConfigVisitor {
 
 		UnoRuntime.queryInterface(XComponent.class, xViewRoot).dispose();
 		xViewRoot = null;
+	}
+	
+	/**
+	 * Create ConfigurationAccess instance with given path. 
+	 */
+	public Object createConfigurationView(String sPath)
+			throws com.sun.star.uno.Exception {
+		// The service name: Need only read access:
+		final String sReadOnlyView = "com.sun.star.configuration.ConfigurationAccess";
+
+		// creation arguments: nodepath
+		com.sun.star.beans.PropertyValue aPathArgument = new com.sun.star.beans.PropertyValue();
+		aPathArgument.Name = "nodepath";
+		aPathArgument.Value = sPath;
+
+		Object[] aArguments = new Object[1];
+		aArguments[0] = aPathArgument;
+
+		// create the view
+		Object xViewRoot = xProvider.createInstanceWithArguments(sReadOnlyView,
+				aArguments);
+
+		return xViewRoot;
 	}
 
 	/**
@@ -198,44 +117,6 @@ public class LiboConfigVisitor {
 				String fullPath = xElementPath.composeHierarchicalName(aElementNames[i]);
 				// Process the value
 				aProcessor.processValueElement(fullPath, aElementNames[i], aChild);
-				
-//				this.distinctPrefNames.add(aElementNames[i]); 
-//				String firstSegment = sChildPath.substring(0, sChildPath.indexOf('/')); 
-//				
-//				if (this.appValues.containsKey(firstSegment)) {
-//					appValues.get(firstSegment).add(aChild.toString()); 
-//				}
-//				else {
-//					ArrayList<String> tempAl = new ArrayList<String>(); 
-//					tempAl.add(aChild.toString()); 
-//					appValues.put(firstSegment, tempAl); 
-//				}
-				
-//				if (distinctCategory.containsKey(firstSegment)) {
-//					// distinctCategory.get(firstSegment).add(aElementNames[i]);
-//					Map<String, ArrayList<String>> tempMap = distinctCategory.get(firstSegment); 
-//					
-//					if (tempMap.containsKey(aElementNames[i])) {
-//						tempMap.get(aElementNames[i]).add(sChildPath);
-//					}
-//					else {
-//						ArrayList<String> tempAl = new ArrayList<String>(); 
-//						tempAl.add(sChildPath); 
-//						tempMap.put(aElementNames[i], tempAl); 
-//					}
-//				}
-//				else {
-//					Map<String, ArrayList<String> > tempMap = new HashMap<String, ArrayList<String> >(); 
-//					ArrayList<String> tempAl = new ArrayList<String>(); 
-//					tempAl.add(sChildPath);
-//					tempMap.put(aElementNames[i], tempAl); 
-//					//temp.add(aElementNames[i]); 
-//					// temp.add(sChildPath); 
-//					distinctCategory.put(firstSegment, tempMap); 
-//				}
-				
-				// and process the value
-				//aProcessor.processValueElement(sChildPath, aElementNames[i], aChild);
 			}
 		}
 	}
